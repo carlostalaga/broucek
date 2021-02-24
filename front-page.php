@@ -3,7 +3,7 @@
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<div class="col spacer-top"></div>		
+		<div class="col spacer-top-home"></div>		
 
 		<!-- Swiper slider -->
 		<?php include('inc-slider-home.php'); ?>
@@ -11,7 +11,7 @@
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-8">
-					default-page<?php the_content(); ?>
+					front-page<?php the_content(); ?>
 				</div>
 			</div>
 		</div>

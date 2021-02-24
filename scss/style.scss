@@ -14,6 +14,7 @@ broucek WordPress Theme © 2020
 @import 'fonts';
 // @import 'vendors';
 @import 'swiper';
+@import 'fx';
 
 body,
 html {
@@ -29,13 +30,17 @@ html {
 }
 
 .spacer-top {
-  height: 60px;
+  height: 180px;
+  background: transparent;
+}
+.spacer-top-home {
+  height: 0px;
   background: transparent;
 }
 
 /* Logos */
 #logo-change {
-  position: absolute;
+  position: relative;
 }
 
 .logo-constraint {

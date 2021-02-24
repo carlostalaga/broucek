@@ -52,6 +52,7 @@ function scrollFunction() {
 <!-- Initiate Hamburger icon animation -->
 <script type="text/javascript">
 jQuery(document).ready(function () {
+
   jQuery('.first-button').on('click', function () {
 
     jQuery('.animated-icon1').toggleClass('open');
@@ -67,6 +68,9 @@ jQuery(document).ready(function () {
 });
 </script>
 <!-- //end Initiate Hamburger icon animation -->
+
+
+
 
 <!-- Initialize Swiper -->
 <script>

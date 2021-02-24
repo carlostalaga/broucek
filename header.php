@@ -21,7 +21,7 @@
 	    </a>
 
 	    <button class="navbar-toggler first-button mt-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	      <div class="animated-icon3"><span></span><span></span><span></span></div>
+	      <div class="animated-icon1"><span></span><span></span><span></span></div>
 	    </button>
 
 

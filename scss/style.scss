@@ -1,0 +1,62 @@
+/*
+Theme Name: broucek EnvyUs
+Theme URI: https://envyus.com.au
+Author: EnvyUs
+Author URI: https://envyus.com.au
+Description: Web Design Adelaide
+Version: 2019v1
+License: GNU General Public License
+Text Domain: broucek
+broucek WordPress Theme © 2020
+*/
+
+// @import 'colours';
+@import 'fonts';
+// @import 'vendors';
+@import 'swiper';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container-broucek {
+    margin-top: 0px;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.spacer-top {
+  height: 60px;
+  background: transparent;
+}
+
+/* Logos */
+#logo-change {
+  position: absolute;
+}
+
+.logo-constraint {
+  max-width: 220px !important;
+}
+
+#logo-footer {
+  max-width: 220px !important;
+}
+/* // Logos */
+
+/**/
+#navbar-fx {
+  padding: 10px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar-custom {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0));
+}

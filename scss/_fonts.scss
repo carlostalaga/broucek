@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Placard MT Condensed';
+    src: url('fonts/PlacardMT-Condensed.eot');
+    src: url('fonts/PlacardMT-Condensed.eot?#iefix') format('embedded-opentype'),
+        url('fonts/PlacardMT-Condensed.woff2') format('woff2'),
+        url('fonts/PlacardMT-Condensed.woff') format('woff'),
+        url('fonts/PlacardMT-Condensed.svg#PlacardMT-Condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+$highlight: 'Placard MT Condensed', sans-serif;
+$prose: 'Open Sans', sans-serif;
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: $prose;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-stretch: normal;
+}
